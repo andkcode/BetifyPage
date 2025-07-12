@@ -5,18 +5,18 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/kinde',
     '@nuxt/image',
-    '@nuxtjs/ui',
+    '@nuxt/ui',
     '@nuxt/icon',
     '@nuxt/fonts',
     '@pinia/nuxt',
     '@nuxtjs/i18n',
-    '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     'nuxt-security',
     'nuxt-swiper',
     '@nuxtjs/seo',
     '@nuxt/test-utils/module'
   ],
+  css: ['~/public/assets/css/main.css'],
   i18n: {
     locales: [
       { code: 'en', language: 'en-US' },
