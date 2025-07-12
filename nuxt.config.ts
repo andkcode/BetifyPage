@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
+  pages: true,
   modules: [
     '@nuxtjs/kinde',
     '@nuxt/image',
@@ -18,6 +19,9 @@ export default defineNuxtConfig({
   ],
   css: ['~/public/assets/css/main.css'],
   i18n: {
+    bundle: {
+      optimizeTranslationDirective: false,
+    },
     locales: [
       { code: 'en', language: 'en-US' },
       { code: 'fr', language: 'fr-FR' }
