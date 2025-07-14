@@ -3,6 +3,13 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   pages: true,
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      ],
+    },
+  },
   modules: [
     '@nuxtjs/kinde',
     '@nuxt/image',
@@ -17,7 +24,7 @@ export default defineNuxtConfig({
     '@nuxtjs/seo',
     '@nuxt/test-utils/module'
   ],
-  css: ['~/public/assets/css/main.css'],
+  css: ['~/assets/css/main.css'],
   i18n: {
     bundle: {
       optimizeTranslationDirective: false,
