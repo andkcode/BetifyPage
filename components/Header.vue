@@ -2,17 +2,16 @@
   <div class="app-container w-full h-[6rem] flex items-center bg-transparent px-30">
     <div class="flex items-center justify-between w-full h-full relative">
       
-      <div class="flex items-center space-x-2">
+      <UButton class="flex items-center space-x-2 bg-transparent hover:bg-transparent" to="/">
         <img src="/assets/logo.jpg" alt="logo" class="h-15 w-15 rounded-[0.3rem]" />
         <h1 class="text-5xl font-bold">Betify</h1>
-      </div>
+      </UButton>
 
       <nav class="absolute left-1/2 transform -translate-x-1/2 flex space-x-6 text-m font-semibold">
         <NuxtLink to="/" class="hover:text-blue-600">Home</NuxtLink>
         <NuxtLink to="/about" class="hover:text-blue-600">About</NuxtLink>
         <NuxtLink to="/blog" class="hover:text-blue-600">Blog</NuxtLink>
-        <NuxtLink to="/contact" class="hover:text-blue-600">Contact</NuxtLink>
-        <NuxtLink to="/login" class="hover:text-blue-600">Login</NuxtLink>
+        <NuxtLink to="/contact" class="hover:text-blue-600">Contributors</NuxtLink>
       </nav>
 
       <UButton to="https://t.me/parse_exchanges_bot" target="_blank"
