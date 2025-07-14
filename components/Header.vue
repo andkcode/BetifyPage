@@ -15,13 +15,12 @@
         <NuxtLink to="/login" class="hover:text-blue-600">Login</NuxtLink>
       </nav>
 
-      <UButton
+      <UButton to="https://t.me/parse_exchanges_bot"
         icon="mingcute:telegram-fill"
         class="flex justify-center items-center bg-blue-700 rounded-full text-white font-bold px-8 py-3 hover:bg-blue-600 cursor-pointer"
       >
         Telegram
       </UButton>
-      
     </div>
   </div>
 </template>
