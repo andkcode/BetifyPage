@@ -6,6 +6,14 @@
         <img src="/assets/logo.jpg" alt="logo" class="h-15 w-15 rounded-[0.3rem]" />
         <h1 class="text-5xl font-bold">Betify</h1>
       </div>
+
+      <nav class="absolute left-1/2 transform -translate-x-1/2 flex space-x-6 text-m font-semibold">
+        <NuxtLink to="/" class="hover:text-blue-600">Home</NuxtLink>
+        <NuxtLink to="/about" class="hover:text-blue-600">About</NuxtLink>
+        <NuxtLink to="/blog" class="hover:text-blue-600">Blog</NuxtLink>
+        <NuxtLink to="/contact" class="hover:text-blue-600">Contact</NuxtLink>
+        <NuxtLink to="/login" class="hover:text-blue-600">Login</NuxtLink>
+      </nav>
   </div>
 </template>
 
