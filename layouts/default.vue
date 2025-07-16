@@ -1,5 +1,5 @@
 <template>
-    <UApp>
+    <UApp>  
         <Header />
         <main class="flex-1">
             <slot/>
