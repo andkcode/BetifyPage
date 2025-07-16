@@ -9,14 +9,15 @@
 
       <nav class="absolute left-1/2 transform -translate-x-1/2 flex space-x-6 text-m font-semibold">
         <NuxtLink to="/" class="hover:text-blue-600">Home</NuxtLink>
-        <NuxtLink to="/about" class="hover:text-blue-600">About</NuxtLink>
+        <NuxtLink to="/about" class="hover:text-blue-600">How it works</NuxtLink>
+        <NuxtLink to="/results" class="hover:text-blue-600">Results</NuxtLink>
+        <NuxtLink to="/pricing" class="hover:text-blue-600">Pricing</NuxtLink>
         <NuxtLink to="/blog" class="hover:text-blue-600">Blog</NuxtLink>
-        <NuxtLink to="/contact" class="hover:text-blue-600">Contributors</NuxtLink>
       </nav>
 
       <UButton to="https://t.me/parse_exchanges_bot" target="_blank"
         icon="mingcute:telegram-fill"
-        class="flex justify-center items-center bg-blue-700 rounded-full text-white font-bold px-8 py-3 hover:bg-blue-600 cursor-pointer"
+        class="flex justify-center items-center bg-blue-500 rounded-full text-white font-bold px-8 py-3 hover:bg-blue-600 cursor-pointer"
       >
         Telegram
       </UButton>
