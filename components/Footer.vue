@@ -1,5 +1,5 @@
 <template>
-  <footer class="w-full text-black pt-12 pb-6 px-8 md:px-20">
+<footer class="w-full text-black pt-12 pb-6 px-8 md:px-20">
     <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 items-start">
 
       <!-- Brand -->
@@ -18,16 +18,18 @@
 
       <div class="flex flex-col space-y-2 text-sm font-medium">
         <h2 class="text-lg font-semibold mb-2">Quick Links</h2>
-        <NuxtLink to="/" class="hover:text-blue-600 transition">Home</NuxtLink>
-        <NuxtLink to="/about" class="hover:text-blue-600 transition">About</NuxtLink>
-        <NuxtLink to="/blog" class="hover:text-blue-600 transition">Blog</NuxtLink>
-        <NuxtLink to="/contact" class="hover:text-blue-600 transition">Contributors</NuxtLink>
+        <NuxtLink to="/" class="hover:text-blue-600">Home</NuxtLink>
+        <NuxtLink to="/about" class="hover:text-blue-600">About</NuxtLink>
+        <NuxtLink to="/results" class="hover:text-blue-600">Results</NuxtLink>
+        <NuxtLink to="/pricing" class="hover:text-blue-600">Pricing</NuxtLink>
+        <NuxtLink to="/blog" class="hover:text-blue-600">Blog</NuxtLink>
       </div>
 
       <div class="flex flex-col space-y-2 text-sm font-medium">
         <h2 class="text-lg font-semibold mb-2">Documentation</h2>
         <NuxtLink to="/" class="hover:text-blue-600 transition">Privacy Policy</NuxtLink>
         <NuxtLink to="/about" class="hover:text-blue-600 transition">Terms of Service</NuxtLink>
+        <NuxtLink to="/about" class="hover:text-blue-600 transition">FAQ / Help</NuxtLink>
       </div>
 
       <div class="flex flex-col space-y-2 text-sm font-medium">
