@@ -17,3 +17,61 @@
 
       <img src="/assets/phones.png" alt="Phones Image" class="w-full md:w-1/2 h-auto" />
     </div>
+
+    <!-- Content Section -->
+    <div class="flex items-start justify-between flex-row w-full mt-30">
+      <div class="flex flex-col items-start px-4 sm:px-[8rem] max-w-9xl space-y-10">
+        <h2 class="text-4xl sm:text-5xl font-extrabold text-gray-900 leading-tight">
+          <span class="text-blue-700">Betify</span> — It’s Not Just a Bet. <br class="hidden sm:block" />It’s <em>Who You Are.</em>
+        </h2>
+        
+        <p class="text-xl text-gray-700 leading-relaxed">
+          <strong>Betify</strong> is a <span class="text-blue-700 font-semibold">Telegram bot</span> that transforms everyday challenges into epic showdowns. With <strong>Betify</strong>, you set the terms, challenge anyone, and prove yourself — <em>no luck involved.</em> Win not just money — win <strong>pride.</strong>
+        </p>
+        
+        <!-- Features -->
+        <div class="space-y-8 text-left text-gray-800 text-lg">
+          <p>
+            <span class="font-semibold flex items-center gap-3 text-xl">
+              <UIcon name="fluent-emoji-high-contrast:brain" class="text-2xl text-blue-600" />
+              Psychology-Powered. Precision-Driven.
+            </span>
+            Betify fires up your competitive edge. It's not gambling — it’s a blend of <strong>strategy, psychology</strong>, and <strong>personal growth</strong> packed into one smart interface.
+          </p>
+
+          <p>
+            <span class="font-semibold flex items-center gap-3 text-xl">
+              <UIcon name="solar:settings-outline" class="text-2xl text-blue-600" />
+              Set the Rules. Raise the Stakes.
+            </span>
+            Want to bet on who wakes up earlier? Who wins the game? Who commits longer? <strong>Betify lets you craft the contest</strong>, down to the final second.
+          </p>
+
+          <p>
+            <span class="font-semibold flex items-center gap-3 text-xl">
+              <UIcon name="line-md:telegram" class="text-2xl text-blue-600" />
+              Built on Telegram. No Apps. No Excuses.
+            </span>
+            Forget installs. No friction. Betify lives right where you chat, transforming casual convos into <em>clash-of-the-titans</em> moments.
+          </p>
+
+          <p>
+            <span class="font-semibold flex items-center gap-3 text-xl">
+              <UIcon name="mingcute:fire-line" class="text-2xl text-blue-600" />
+              High Stakes. Real Results.
+            </span>
+            Betify is where <strong>performance meets proof</strong>. It's not about chance — it's about character. <em>Step up. Put it on the line. Own the outcome.</em>
+          </p>
+        </div>
+
+        <!-- CTA Button -->
+        <UButton
+          to="https://t.me/parse_exchanges_bot"
+          target="_blank"
+          icon="mingcute:telegram-fill"
+          class="mt-6 flex justify-center items-center bg-blue-500 rounded-full text-white font-semibold text-lg px-10 py-4 hover:bg-blue-600 transition"
+        >
+          Let's win!
+        </UButton>    
+      </div>
+      
