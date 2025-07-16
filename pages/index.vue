@@ -75,3 +75,14 @@
         </UButton>    
       </div>
       
+      <!-- 3D Section -->
+      <div class="flex-shrink-0 flex items-center justify-center w-full max-w-4xl h-auto max-h-[600px]">
+        <ThreeDModel />
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import ThreeDModel from '@/components/ThreeDModel.vue'
+</script>
