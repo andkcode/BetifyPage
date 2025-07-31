@@ -80,9 +80,19 @@
         <ThreeDModel />
       </div>
     </div>
+    <div class="w-full bg-gray-200 text-center">
+      <h1 class="text-4xl font-bold text-gray-900">People are betting right now!</h1>
+      <div class="text-gray-600 text-lg mt-2">Join the action and prove yourself!</div>
+      <div class="bg-white w-[60%] h-[7rem] my-5 flex self-center justify-self-center rounded-2xl">
+        <div class="flex items-start justify-center w-full px-4 py-2">
+        <PersonGenerator />
+      </div>
+      </div>
+    </div>  
   </div>
 </template>
 
 <script setup lang="ts">
 import ThreeDModel from '@/components/ThreeDModel.vue'
+import PersonGenerator from '@/components/PersonGenerator.vue'
 </script>
