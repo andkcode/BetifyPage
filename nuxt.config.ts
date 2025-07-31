@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  runtimeConfig: {
+    openaiApiKey: 'sk-mnopqrstijkl5678mnopqrstijkl5678mnopqrst', 
+    public: {}
+  },
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   pages: true,
@@ -22,7 +26,8 @@ export default defineNuxtConfig({
     'nuxt-security',
     'nuxt-swiper',
     '@nuxtjs/seo',
-    '@nuxt/test-utils/module'
+    '@nuxt/test-utils/module',
+    'nuxt-cron',
   ],
   css: ['~/assets/css/main.css'],
   i18n: {
@@ -37,4 +42,15 @@ export default defineNuxtConfig({
   },
   security: {
   },
+  cron: {
+    jobs: [
+      {
+        name: 'generate-questions-hourly',
+        schedule: '0 * * * *', 
+        command: async () => {
+          await $fetch('server/api/cron/generate-questions', { method: 'POST' })
+        }
+      }
+    ]
+  }
 })
