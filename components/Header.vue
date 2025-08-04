@@ -27,11 +27,17 @@
         <span class="hidden md:inline">Telegram</span>
       </UButton>
 
+      <!-- Mobile Telegram Button -->
+      <UButton to="https://t.me/betify_crypto_bot" target="_blank"
         icon="mingcute:telegram-fill"
-        class="flex justify-center items-center bg-blue-500 rounded-full text-white font-bold px-8 py-3 hover:bg-blue-600 cursor-pointer"
+        class="sm:hidden flex justify-center items-center bg-blue-500 rounded-full text-white font-bold w-10 h-10 hover:bg-blue-600 cursor-pointer transition-colors flex-shrink-0"
       >
-        Telegram
       </UButton>
     </div>
+
   </div>
 </template>
+
+<script setup>
+
+</script>
