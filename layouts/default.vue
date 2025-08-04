@@ -50,6 +50,121 @@
                 @click="closeMobileMenu"
             ></div>
             
+            <UButton 
+                icon="mingcute:right-fill" 
+                :class="isActive('/guide') ? 'lg:hidden bg-blue-600 text-white fixed bottom-0 my-4 z-50 mx-1' : 'hidden'"
+                v-if="!showSideBarMenu" 
+                @click="toggleSideBarMenu" 
+            />
+
+            <UButton 
+                icon="material-symbols:close-rounded" 
+                :class="isActive('/guide') ? 'bg-color-none text-black fixed my-4 top-0 right-0 z-50 mx-1' : 'hidden'"
+                v-if="showSideBarMenu" 
+                @click="closeSideBarMenu" 
+            />
+
+            <!-- Sidebar Menu with slide animation -->
+            <Transition
+                enter-active-class="transition-all duration-300 ease-out"
+                enter-from-class="transform -translate-x-full opacity-0"
+                enter-to-class="transform translate-x-0 opacity-100"
+                leave-active-class="transition-all duration-300 ease-in"
+                leave-from-class="transform translate-x-0 opacity-100"
+                leave-to-class="transform -translate-x-full opacity-0"
+            >
+                <div 
+                    v-if="showSideBarMenu" 
+                    class="lg:hidden fixed w-full h-full top-0 left-0 right-0 bg-white shadow-lg z-40 border-b"
+                >
+                    <!-- Scrollable content container -->
+                    <div class="h-full overflow-y-auto overflow-x-hidden">
+                    <div class="flex flex-col justify-center space-y-6 py-4 px-4 mt-6">
+
+                        <div class="flex flex-col items-start justify-start space-y-4">
+                            <h1 class="font-semibold text-blue-400 text-base px-4">Get Started</h1>
+                            <div class="flex flex-col items-start justify-start space-y-1 w-full pr-8">
+                            <UButton
+                                :to="'/guide/get-started/what-is-betify'"
+                                :class="[
+                                'text-sm cursor-pointer w-full px-4 py-2 rounded-md transition-colors',
+                                isActive('/guide/get-started/what-is-betify')
+                                    ? 'bg-blue-500 hover:bg-blue-500 text-white'
+                                    : 'text-gray-400 bg-color-none hover:bg-blue-500 hover:text-white'
+                                ]"
+                                @click="closeSideBarMenu"
+                            >
+                            What is Betify?
+                            </UButton>
+                            <UButton
+                                :to="'/guide/get-started/how-to-deposite'"
+                                :class="[
+                                'text-sm cursor-pointer w-full px-4 py-2 rounded-md transition-colors',
+                                isActive('/guide/get-started/how-to-deposite')
+                                    ? 'bg-blue-500 hover:bg-blue-500 text-white'
+                                    : 'text-gray-400 bg-color-none hover:bg-blue-500 hover:text-white'
+                                ]"
+                                @click="closeSideBarMenu"
+                            >
+                            How to Deposit
+                            </UButton>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-start justify-start space-y-4">
+                            <h1 class="font-semibold text-blue-400 text-base px-4">Deposits and Withdrawals</h1>
+                            <div class="flex flex-col items-start justify-start space-y-1 w-full pr-8">
+                            <UButton class="text-gray-400 text-sm cursor-pointer bg-color-none w-full px-4 py-[0.5rem] rounded-[0.5rem] hover:bg-blue-500 hover:text-white focus:bg-blue-500 focus:text-white">What is Betify?</UButton>
+                            <UButton class="text-gray-400 text-sm cursor-pointer bg-color-none w-full px-4 py-[0.5rem] rounded-[0.5rem] hover:bg-blue-500 hover:text-white focus:bg-blue-500 focus:text-white">How to Deposit</UButton>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-start justify-start space-y-4">
+                            <h1 class="font-semibold text-blue-400 text-base px-4">Deposits and Withdrawals</h1>
+                            <div class="flex flex-col items-start justify-start space-y-1 w-full pr-8">
+                            <UButton class="text-gray-400 text-sm cursor-pointer bg-color-none w-full px-4 py-[0.5rem] rounded-[0.5rem] hover:bg-blue-500 hover:text-white focus:bg-blue-500 focus:text-white">What is Betify?</UButton>
+                            <UButton class="text-gray-400 text-sm cursor-pointer bg-color-none w-full px-4 py-[0.5rem] rounded-[0.5rem] hover:bg-blue-500 hover:text-white focus:bg-blue-500 focus:text-white">How to Deposit</UButton>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-start justify-start space-y-4">
+                            <h1 class="font-semibold text-blue-400 text-base px-4">Deposits and Withdrawals</h1>
+                            <div class="flex flex-col items-start justify-start space-y-1 w-full pr-8">
+                            <UButton class="text-gray-400 text-sm cursor-pointer bg-color-none w-full px-4 py-[0.5rem] rounded-[0.5rem] hover:bg-blue-500 hover:text-white focus:bg-blue-500 focus:text-white">What is Betify?</UButton>
+                            <UButton class="text-gray-400 text-sm cursor-pointer bg-color-none w-full px-4 py-[0.5rem] rounded-[0.5rem] hover:bg-blue-500 hover:text-white focus:bg-blue-500 focus:text-white">How to Deposit</UButton>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-start justify-start space-y-4">
+                            <h1 class="font-semibold text-blue-400 text-base px-4">Deposits and Withdrawals</h1>
+                            <div class="flex flex-col items-start justify-start space-y-1 w-full pr-8">
+                            <UButton class="text-gray-400 text-sm cursor-pointer bg-color-none w-full px-4 py-[0.5rem] rounded-[0.5rem] hover:bg-blue-500 hover:text-white focus:bg-blue-500 focus:text-white">What is Betify?</UButton>
+                            <UButton class="text-gray-400 text-sm cursor-pointer bg-color-none w-full px-4 py-[0.5rem] rounded-[0.5rem] hover:bg-blue-500 hover:text-white focus:bg-blue-500 focus:text-white">How to Deposit</UButton>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-start justify-start space-y-4">
+                            <h1 class="font-semibold text-blue-400 text-base px-4">Deposits and Withdrawals</h1>
+                            <div class="flex flex-col items-start justify-start space-y-1 w-full pr-8">
+                            <UButton class="text-gray-400 text-sm cursor-pointer bg-color-none w-full px-4 py-[0.5rem] rounded-[0.5rem] hover:bg-blue-500 hover:text-white focus:bg-blue-500 focus:text-white">What is Betify?</UButton>
+                            <UButton class="text-gray-400 text-sm cursor-pointer bg-color-none w-full px-4 py-[0.5rem] rounded-[0.5rem] hover:bg-blue-500 hover:text-white focus:bg-blue-500 focus:text-white">How to Deposit</UButton>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col items-start justify-start space-y-4">
+                            <h1 class="font-semibold text-blue-400 text-base px-4">Deposits and Withdrawals</h1>
+                            <div class="flex flex-col items-start justify-start space-y-1 w-full pr-8">
+                            <UButton class="text-gray-400 text-sm cursor-pointer bg-color-none w-full px-4 py-[0.5rem] rounded-[0.5rem] hover:bg-blue-500 hover:text-white focus:bg-blue-500 focus:text-white">What is Betify?</UButton>
+                            <UButton class="text-gray-400 text-sm cursor-pointer bg-color-none w-full px-4 py-[0.5rem] rounded-[0.5rem] hover:bg-blue-500 hover:text-white focus:bg-blue-500 focus:text-white">How to Deposit</UButton>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </Transition>
+            
+            
+            
             <slot/>
         </main>
         <Footer />
