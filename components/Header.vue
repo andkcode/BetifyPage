@@ -8,12 +8,13 @@
         <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">Betify</h1>
       </UButton>
 
-      <nav class="absolute left-1/2 transform -translate-x-1/2 flex space-x-6 text-m font-semibold">
-        <NuxtLink to="/" class="hover:text-blue-600">Home</NuxtLink>
-        <NuxtLink to="/about" class="hover:text-blue-600">How it works</NuxtLink>
-        <NuxtLink to="/results" class="hover:text-blue-600">Results</NuxtLink>
+      <!-- Desktop Navigation - Hidden on mobile/tablet -->
+      <nav class="hidden lg:flex absolute left-1/2 transform -translate-x-1/2 space-x-4 xl:space-x-6 text-sm lg:text-base xl:text-lg font-semibold">
+        <NuxtLink to="/" class="hover:text-blue-600 transition-colors">Home</NuxtLink>
+        <NuxtLink to="/guide" class="hover:text-blue-600 transition-colors">Guide</NuxtLink>
+        <!-- <NuxtLink to="/results" class="hover:text-blue-600">Results</NuxtLink>
         <NuxtLink to="/pricing" class="hover:text-blue-600">Pricing</NuxtLink>
-        <NuxtLink to="/blog" class="hover:text-blue-600">Blog</NuxtLink>
+        <NuxtLink to="/blog" class="hover:text-blue-6`~`0">Blog</NuxtLink> -->
       </nav>
 
       <UButton to="https://t.me/parse_exchanges_bot" target="_blank"
