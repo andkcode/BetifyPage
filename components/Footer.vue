@@ -26,11 +26,12 @@
         <NuxtLink to="/blog" class="hover:text-blue-600 transition-colors py-1">Blog</NuxtLink> -->
       </div>
 
+      <!-- Documentation -->
       <div class="flex flex-col space-y-2 text-sm font-medium">
-        <h2 class="text-lg font-semibold mb-2">Documentation</h2>
-        <NuxtLink to="/" class="hover:text-blue-600 transition">Privacy Policy</NuxtLink>
-        <NuxtLink to="/about" class="hover:text-blue-600 transition">Terms of Service</NuxtLink>
-        <NuxtLink to="/about" class="hover:text-blue-600 transition">FAQ / Help</NuxtLink>
+        <h2 class="text-base sm:text-lg font-bold mb-2 text-blue-300">Documentation</h2>
+        <NuxtLink to="/" class="hover:text-blue-600 transition-colors py-1">Privacy Policy</NuxtLink>
+        <NuxtLink to="/about" class="hover:text-blue-600 transition-colors py-1">Terms of Service</NuxtLink>
+        <NuxtLink to="/about" class="hover:text-blue-600 transition-colors py-1">FAQ / Help</NuxtLink>
       </div>
 
       <div class="flex flex-col space-y-2 text-sm font-medium">
