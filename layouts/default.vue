@@ -279,4 +279,13 @@ watch(showRightBarMenu, (newValue) => {
     })
 })
 
+
+const toggleMobileMenu = () => {
+    showMobileMenu.value = !showMobileMenu.value
+}
+
+const closeMobileMenu = () => {
+    showMobileMenu.value = false
+}
+
 </script>
