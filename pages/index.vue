@@ -18,14 +18,15 @@
     </div>
 
     <!-- Content Section -->
-    <div class="flex items-start justify-between flex-row w-full mt-30">
-      <div class="flex flex-col items-start px-4 sm:px-[8rem] max-w-9xl space-y-10">
-        <h2 class="text-4xl sm:text-5xl font-extrabold text-gray-900 leading-tight">
-          <span class="text-blue-700">Betify</span> — It’s Not Just a Bet. <br class="hidden sm:block" />It’s <em>Who You Are.</em>
+    <div class="flex flex-col xl:flex-row items-start justify-between w-full mt-10 xl:mt-30 xl:space-y-0">
+      <div class="flex flex-col items-start px-4 sm:px-8 lg:px-16 xl:px-32 max-w-9xl space-y-10 w-full xl:w-auto">
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight">
+          <span class="text-blue-700">Betify</span> — It's Not Just a Bet.
+          <p class="text-xl sm:text-2xl text-gray-500 mt-2">Challenge. Identity. Accountability.</p>
         </h2>
-        
-        <p class="text-xl text-gray-700 leading-relaxed">
-          <strong>Betify</strong> is a <span class="text-blue-700 font-semibold">Telegram bot</span> that transforms everyday challenges into epic showdowns. With <strong>Betify</strong>, you set the terms, challenge anyone, and prove yourself — <em>no luck involved.</em> Win not just money — win <strong>pride.</strong>
+
+        <p class="text-lg sm:text-xl text-gray-700 leading-relaxed">
+          <strong>Betify</strong> is a Telegram-based challenge platform that transforms everyday challenges into epic showdowns. With <strong>Betify</strong>, you set the terms, challenge anyone, and prove yourself — <em>no luck involved.</em> <strong>Betify</strong> helps you commit, <strong>compete</strong>, and conquer.
         </p>
         
         <!-- Features -->
