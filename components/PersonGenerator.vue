@@ -99,7 +99,6 @@ function generateHumanUsername(maxLength = 15) {
 
 const leftUsername = ref(generateHumanUsername())
 const rightUsername = ref(generateHumanUsername())
-
 </script>
 
 <style scoped>
