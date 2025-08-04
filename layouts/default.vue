@@ -164,6 +164,47 @@
             </Transition>
             
             
+            <UButton 
+                icon="mingcute:left-fill" 
+                :class="isActive('/guide') ? 'lg:hidden bg-blue-600 text-white fixed bottom-0 right-0 my-4 z-50 mx-1' : 'hidden'"
+                v-if="!showRightBarMenu"
+                @click="toggleRightBarMenu" 
+            />
+
+            <UButton 
+                icon="material-symbols:close-rounded" 
+                :class="isActive('/guide') ? 'bg-color-none text-black fixed my-4 top-0 left-0 z-50 mx-1' : 'hidden'"
+                v-if="showRightBarMenu" 
+                @click="closeRightBarMenu" 
+            />
+
+            <!-- Sidebar Menu with slide animation -->
+                <Transition
+                enter-active-class="transition-all duration-300 ease-out"
+                enter-from-class="transform translate-x-full opacity-0"
+                enter-to-class="transform translate-x-0 opacity-100"
+                leave-active-class="transition-all duration-300 ease-in"
+                leave-from-class="transform translate-x-0 opacity-100"
+                leave-to-class="transform translate-x-full opacity-0"
+                >
+                <div 
+                    v-if="showRightBarMenu" 
+                    class="lg:hidden fixed w-full h-full top-0 left-0 right-0 bg-white shadow-lg z-40 border-b"
+                >
+                    <!-- Scrollable content container -->
+                    <div class="h-full overflow-y-auto overflow-x-hidden">
+                    <div class="flex flex-col items-start justify-start h-full w-full pl-10 pt-10">
+                        <div class="space-y-3">
+                        <div class="flex items-center space-x-2">
+                            <UIcon name="iconoir:page-flip" class="text-black text-lg" />
+                            <h1 class="text-base font-semibold text-black">On this page</h1>
+                        </div>
+                        <h2 class="text-base font-semibold text-blue-800">Quick Overview</h2>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </Transition>
             
             <slot/>
         </main>
