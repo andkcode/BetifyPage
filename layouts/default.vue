@@ -211,7 +211,15 @@
         <Footer />
     </UApp>
 </template>
-<script lang="ts" setup>
+
+<script setup lang="ts">
 import Header from '~/components/Header.vue'    
 import Footer from '~/components/Footer.vue'
+import { ref, watch, nextTick } from 'vue'
+import { useRoute } from 'vue-router';
+
+const route = useRoute()
+const isActive = (path: string) => {
+    return route.path.startsWith(path)
+}
 </script>
