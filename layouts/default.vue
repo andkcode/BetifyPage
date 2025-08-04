@@ -236,4 +236,17 @@ const lockBodyScroll = () => {
     document.body.style.overflow = 'hidden'
 }
 
+const unlockBodyScroll = () => {
+    const scrollY = document.body.style.top
+    document.body.style.position = ''
+    document.body.style.top = ''
+    document.body.style.width = ''
+    document.body.style.overflow = ''
+    // Restore scroll position
+    if (scrollY) {
+        window.scrollTo(0, parseInt(scrollY || '0') * -1)
+    }
+}
+
+
 </script>
