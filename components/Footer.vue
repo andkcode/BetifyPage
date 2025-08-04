@@ -50,6 +50,17 @@
         </div>
       </div>
     </div>
+
+    <!-- Mobile Social Links (Alternative layout for very small screens) -->
+    <div class="sm:hidden mt-6 pt-4 border-t border-gray-700">
+      <h3 class="text-sm font-bold mb-3 text-blue-300 text-center">Follow Us</h3>
+      <div class="flex justify-center space-x-6">
+        <UButton to="/" icon="line-md:twitter-x" class="hover:text-white text-white transition bg-transparent hover:bg-transparent p-2">
+        </UButton>
+        <UButton to="/about" icon="ic:baseline-facebook" class="hover:text-blue-600 text-white transition bg-transparent hover:bg-transparent p-2">
+        </UButton>
+        <UButton to="/about" icon="streamline:instagram-solid" class="hover:text-red-600 text-white transition bg-transparent hover:bg-transparent p-2">
+        </UButton>
       </div>
     </div>
   </footer>
