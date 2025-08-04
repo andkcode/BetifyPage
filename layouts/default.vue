@@ -288,4 +288,11 @@ const closeMobileMenu = () => {
     showMobileMenu.value = false
 }
 
+const toggleSideBarMenu = () => {
+    showSideBarMenu.value = !showSideBarMenu.value
+}
+
+const closeSideBarMenu = () => {
+    showSideBarMenu.value = false
+}
 </script>
