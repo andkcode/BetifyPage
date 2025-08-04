@@ -1,17 +1,17 @@
 <template>
-<footer class="w-full text-black pt-12 pb-6 px-8 md:px-20">
-    <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 items-start">
-
-      <!-- Brand -->
-      <div class="flex flex-col space-y-4 ">
-        <div class="flex items-center space-x-3">
-          <img src="/assets/logo.jpg" alt="logo" class="h-12 w-12 rounded-[0.3rem]" />
-          <h1 class="text-3xl font-bold">Betify</h1>
+<footer class="w-full text-white pt-8 sm:pt-10 md:pt-12 pb-4 sm:pb-6 px-4 sm:px-8 md:px-12 lg:px-20">
+    <div class="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 items-start">
+      
+      <!-- Brand Section -->
+      <div class="flex flex-col space-y-3 sm:space-y-4 sm:col-span-2 lg:col-span-1">
+        <div class="flex items-center space-x-2 sm:space-x-3">
+          <img src="/assets/logo.jpg" alt="logo" class="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 rounded-[0.3rem]" />
+          <h1 class="text-xl sm:text-2xl md:text-3xl font-bold">Betify</h1>
         </div>
-        <p class="text-sm text-neutral-700 max-w-sm">
+        <p class="text-xs sm:text-sm text-gray-700 max-w-sm leading-relaxed">
           The ultimate hub for smart predictions and analytics. Trust the data. Win smarter.
         </p>
-        <p class="text-xs text-gray-500">
+        <p class="text-xs text-gray-400">
           © {{ new Date().getFullYear() }} Betify. All rights reserved.
         </p>
       </div>
