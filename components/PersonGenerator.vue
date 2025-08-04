@@ -9,10 +9,35 @@
       <div class="absolute inset-0 opacity-20">
         <div class="absolute inset-0 grid-pattern"></div>
       </div>
-      <p class="text-xl font-bold text-gray-800">VS</p>
-      <div class="flex items-center gap-2">
-        <UIcon name="material-symbols-light:swords" alt="Right Face" class="text-[2rem] rounded-full object-cover" />
-        <p class="text-black">{{ rightUsername }}</p>
+      
+      <div class="absolute top-10 left-10 w-2 h-2 bg-white/40 rounded-full animate-bounce"></div>
+      <div class="absolute top-20 right-20 w-1 h-1 bg-cyan-200/60 rounded-full animate-bounce animation-delay-500"></div>
+      <div class="absolute bottom-20 left-20 w-3 h-3 bg-white/30 rounded-full animate-bounce animation-delay-1500"></div>
+      <div class="absolute bottom-10 right-10 w-1.5 h-1.5 bg-purple-200/50 rounded-full animate-bounce animation-delay-2500"></div>
+      
+      <!-- Dynamic light rays -->
+      <div class="absolute top-0 left-1/4 w-px h-full bg-gradient-to-b from-transparent via-white/20 to-transparent transform rotate-12"></div>
+      <div class="absolute top-0 right-1/4 w-px h-full bg-gradient-to-b from-transparent via-cyan-200/30 to-transparent transform -rotate-12"></div>
+    </div>
+
+    <!-- Glassmorphism overlay -->
+    <div class="absolute inset-0 bg-white/5 backdrop-blur-sm border border-white/20 rounded-3xl"></div>
+
+    <!-- Content -->
+    <div class="relative z-10 p-8 w-full ">
+      <!-- Player VS Player -->
+      <div class="flex flex-row items-center justify-center gap-6 mb-6">
+        <div class="bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 border border-white/30 transition-all duration-300 hover:bg-white/25">
+          <p class="text-blue-800 font-semibold text-lg">{{ leftUsername }}</p>
+        </div>
+        
+          <div class="flex items-center justify-center">
+            <img class="w-12 h-full" src="/assets/logobg.png" alt="hammer"></img>
+        </div>
+        
+        <div class="bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 border border-white/30 transition-all duration-300 hover:bg-white/25">
+          <p class="text-blue-800 font-semibold text-lg">{{ rightUsername }}</p>
+        </div>
       </div>
     </div>
 
