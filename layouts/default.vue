@@ -222,4 +222,9 @@ const route = useRoute()
 const isActive = (path: string) => {
     return route.path.startsWith(path)
 }
+
+const showMobileMenu = ref(false)
+const showSideBarMenu = ref(false)
+const showRightBarMenu = ref(false)
+
 </script>
