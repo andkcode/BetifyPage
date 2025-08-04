@@ -39,20 +39,21 @@
           <p class="text-blue-800 font-semibold text-lg">{{ rightUsername }}</p>
         </div>
       </div>
-    </div>
 
-    <!-- Brawl Questions -->
-    <div class="w-full max-w-2xl">
-      <h2 class="text-xl font-bold text-center mb-4 text-black">What is your name?</h2>
-    </div>
+      <h2 class="text-2xl font-bold text-center mb-8 text-white drop-shadow-lg">
+        Who is gonna fucked up Betify?
+      </h2>
 
-    <div class="flex h-[4rem] w-full flex-row items-center justify-center gap-6 bg-black">
-      <div class="flex items-center justify-center w-full max-w-2xl">
-        <div class="flex flex-col items-center gap-4">
-          <p class="text-lg text-white">Betify is your battleground for epic showdowns.</p>
-          <p class="text-lg text-white">Craft your contest, challenge your friends, and prove who's the best.</p>
+      <div class="flex items-center flex-row justify-between w-full px-12">
+        <div class="flex flex-col items-center justify-center gap-4">
+        <h1 class="text-white text-xl font-semibold">Answer</h1>
+        <div class="flex flex-col items-center gap-3 justify-center text-center bg-white/15 backdrop-blur-sm rounded-2xl p-4 border border-white/25 hover:bg-white/20 transition-all duration-300 cursor-pointer hover:scale-105">
+          <h2 class="text-white text-3xl font-bold">
+            1.00<span class="text-cyan-200 text-lg font-normal">x</span>
+          </h2>
+          </div>
         </div>
-        </div>
+        
     </div>
   </div>
 </template>
