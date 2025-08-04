@@ -305,4 +305,9 @@ const closeRightBarMenu = () => {
 }
 
 
+// Cleanup on component unmount
+import { onBeforeUnmount } from 'vue'
+onBeforeUnmount(() => {
+    unlockBodyScroll()
+})
 </script>
