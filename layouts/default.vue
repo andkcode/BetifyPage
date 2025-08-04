@@ -295,4 +295,14 @@ const toggleSideBarMenu = () => {
 const closeSideBarMenu = () => {
     showSideBarMenu.value = false
 }
+
+const toggleRightBarMenu = () => {
+    showRightBarMenu.value = !showRightBarMenu.value
+}
+
+const closeRightBarMenu = () => {
+    showRightBarMenu.value = false
+}
+
+
 </script>
