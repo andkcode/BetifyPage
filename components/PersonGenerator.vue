@@ -1,10 +1,13 @@
 <template>
-  <div class="flex flex-col items-center justify-center gap-6">
-    <!-- Player VS Player -->
-    <div class="flex flex-row items-center justify-center gap-6">
-      <div class="flex items-center gap-2">
-        <p class="text-black">{{ leftUsername }}</p>
-        <UIcon name="material-symbols-light:swords" alt="Left Face" class="text-[2rem] rounded-full object-cover" />
+  <div class="relative my-5 flex self-center justify-self-center rounded-3xl flex-col items-center justify-center w-full max-w-6xl overflow-hidden shadow-2xl">
+    
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-500 to-indigo-600">
+      <div class="absolute top-0 left-0 w-72 h-72 bg-white/10 rounded-full blur-3xl animate-pulse"></div>
+      <div class="absolute bottom-0 right-0 w-96 h-96 bg-cyan-300/20 rounded-full blur-3xl animate-pulse animation-delay-1000"></div>
+      <div class="absolute top-1/2 left-1/3 w-64 h-64 bg-purple-400/15 rounded-full blur-2xl animate-pulse animation-delay-2000"></div>
+      
+      <div class="absolute inset-0 opacity-20">
+        <div class="absolute inset-0 grid-pattern"></div>
       </div>
       <p class="text-xl font-bold text-gray-800">VS</p>
       <div class="flex items-center gap-2">
