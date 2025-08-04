@@ -249,4 +249,34 @@ const unlockBodyScroll = () => {
 }
 
 
+watch(showSideBarMenu, (newValue) => {
+    nextTick(() => {
+        if (newValue) {
+            lockBodyScroll()
+        } else {
+            unlockBodyScroll()
+        }
+    })
+})
+
+watch(showMobileMenu, (newValue) => {
+    nextTick(() => {
+        if (newValue) {
+            lockBodyScroll()
+        } else {
+            unlockBodyScroll()
+        }
+    })
+})
+
+watch(showRightBarMenu, (newValue) => {
+    nextTick(() => {
+        if (newValue) {
+            lockBodyScroll()
+        } else {
+            unlockBodyScroll()
+        }
+    })
+})
+
 </script>
