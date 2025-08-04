@@ -17,7 +17,16 @@
         <NuxtLink to="/blog" class="hover:text-blue-6`~`0">Blog</NuxtLink> -->
       </nav>
 
-      <UButton to="https://t.me/parse_exchanges_bot" target="_blank"
+      <!-- Mobile/Tablet Navigation Menu Button -->
+
+      <!-- Telegram Button - Responsive sizing -->
+      <UButton to="https://t.me/betify_crypto_bot" target="_blank"
+        icon="mingcute:telegram-fill"
+        class="hidden sm:flex justify-center items-center bg-blue-500 rounded-full text-white font-bold px-3 py-2 sm:px-4 sm:py-2 md:px-6 md:py-3 lg:px-8 lg:py-3 hover:bg-blue-600 cursor-pointer transition-colors text-xs sm:text-sm md:text-base flex-shrink-0"
+      >
+        <span class="hidden md:inline">Telegram</span>
+      </UButton>
+
         icon="mingcute:telegram-fill"
         class="flex justify-center items-center bg-blue-500 rounded-full text-white font-bold px-8 py-3 hover:bg-blue-600 cursor-pointer"
       >
