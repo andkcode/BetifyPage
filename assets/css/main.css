@@ -38,12 +38,6 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.02em;
 }
 
-p {
-  color: #374151;
-  line-height: 1.6;
-  font-weight: 400;
-}
-
 /* Numbers and stats styling for betting context */
 .number, .stat, .odds {
   font-weight: 600;
