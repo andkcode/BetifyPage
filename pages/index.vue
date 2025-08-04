@@ -75,23 +75,15 @@
       </div>
       
       <!-- 3D Section -->
-      <div class="flex-shrink-0 flex items-center justify-center w-full max-w-4xl h-auto max-h-[600px]">
-        <ThreeDModel />
+      <div class="flex-shrink-0 items-center justify-center xl:w-full max-w-2xl xl:max-w-4xl h-auto max-h-[400px] sm:max-h-[500px] xl:max-h-[600px] mx-auto xl:mx-0 hidden xl:flex">
+        <ThreeDModel/>
       </div>
     </div>
-    <div class="w-full bg-gray-200 text-center">
-      <h1 class="text-4xl font-bold text-gray-900">People are betting right now!</h1>
-      <div class="text-gray-600 text-lg mt-2">Join the action and prove yourself!</div>
-      <div class="bg-white w-[60%] h-[7rem] my-5 flex self-center justify-self-center rounded-2xl">
-        <div class="flex items-start justify-center w-full px-4 py-2">
-        <PersonGenerator />
-      </div>
-      </div>
-    </div>  
   </div>
 </template>
 
 <script setup lang="ts">
 import ThreeDModel from '@/components/ThreeDModel.vue'
 import PersonGenerator from '@/components/PersonGenerator.vue'
+import Carousel from '~/components/Carousel.vue';
 </script>
