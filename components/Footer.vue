@@ -16,13 +16,14 @@
         </p>
       </div>
 
+      <!-- Quick Links -->
       <div class="flex flex-col space-y-2 text-sm font-medium">
-        <h2 class="text-lg font-semibold mb-2">Quick Links</h2>
-        <NuxtLink to="/" class="hover:text-blue-600">Home</NuxtLink>
-        <NuxtLink to="/about" class="hover:text-blue-600">About</NuxtLink>
-        <NuxtLink to="/results" class="hover:text-blue-600">Results</NuxtLink>
-        <NuxtLink to="/pricing" class="hover:text-blue-600">Pricing</NuxtLink>
-        <NuxtLink to="/blog" class="hover:text-blue-600">Blog</NuxtLink>
+        <h2 class="text-base sm:text-lg font-bold mb-2 text-blue-300">Quick Links</h2>
+        <NuxtLink to="/" class="hover:text-blue-600 transition-colors py-1">Home</NuxtLink>
+        <NuxtLink to="/guide" class="hover:text-blue-600 transition-colors py-1">Guide</NuxtLink>
+        <!-- <NuxtLink to="/results" class="hover:text-blue-600 transition-colors py-1">Results</NuxtLink>
+        <NuxtLink to="/pricing" class="hover:text-blue-600 transition-colors py-1">Pricing</NuxtLink>
+        <NuxtLink to="/blog" class="hover:text-blue-600 transition-colors py-1">Blog</NuxtLink> -->
       </div>
 
       <div class="flex flex-col space-y-2 text-sm font-medium">
