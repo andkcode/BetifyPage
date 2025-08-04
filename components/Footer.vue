@@ -34,11 +34,22 @@
         <NuxtLink to="/about" class="hover:text-blue-600 transition-colors py-1">FAQ / Help</NuxtLink>
       </div>
 
-      <div class="flex flex-col space-y-2 text-sm font-medium">
-        <h2 class="text-lg font-semibold mb-2">Connect</h2>
-        <UButton to="/" icon="line-md:twitter-x" class="hover:text-white transition bg-transparent hover:bg-transparent">Twitter</UButton>
-        <UButton to="/about" icon="ic:baseline-facebook" class="hover:text-blue-600 transition bg-transparent hover:bg-transparent">Facebook</UButton>
-        <UButton to="/about" icon="streamline:instagram-solid" class="hover:text-red-600 transition bg-transparent hover:bg-transparent">Instagram</UButton>
+      <!-- Social Connect -->
+      <div class="flex flex-col text-sm font-medium">
+        <h2 class="text-base sm:text-lg font-bold mb-2 text-blue-300">Connect</h2>
+        <div class="flex flex-col space-y-1">
+          <UButton to="/" icon="line-md:twitter-x" class="hover:text-white text-white transition bg-transparent hover:bg-transparent justify-start p-1">
+            <span class="ml-2">Twitter</span>
+          </UButton>
+          <UButton to="/about" icon="ic:baseline-facebook" class="hover:text-blue-600 text-white transition bg-transparent hover:bg-transparent justify-start p-1">
+            <span class="ml-2">Facebook</span>
+          </UButton>
+          <UButton to="/about" icon="streamline:instagram-solid" class="hover:text-red-600 text-white transition bg-transparent hover:bg-transparent justify-start p-1">
+            <span class="ml-2">Instagram</span>
+          </UButton>
+        </div>
+      </div>
+    </div>
       </div>
     </div>
   </footer>
