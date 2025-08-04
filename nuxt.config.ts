@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  
   runtimeConfig: {
     openaiApiKey: 'sk-mnopqrstijkl5678mnopqrstijkl5678mnopqrst', 
     public: {}
@@ -30,6 +31,17 @@ export default defineNuxtConfig({
     'nuxt-cron',
   ],
   css: ['~/assets/css/main.css'],
+  security: {
+    headers: {
+      contentSecurityPolicy: {
+        'default-src': ["'self'"],
+        'img-src': ["'self'", 'https:', 'https://posterjack.ca', 'https://picsum.photos', 'https://www.rapid7.com'],
+      }
+    }
+  },
+    image: {
+    domains: ['www.rapid7.com']
+  },
   i18n: {
     bundle: {
       optimizeTranslationDirective: false,
