@@ -54,7 +54,25 @@
           </div>
         </div>
         
+        <div class="flex flex-col items-center gap-2 justify-center text-center bg-white/20 backdrop-blur-md rounded-2xl p-6 border border-white/30 shadow-xl">
+          <h2 class="text-cyan-100 text-sm font-bold tracking-wider">TOMORROW</h2>
+          <h1 class="text-white text-3xl font-bold">13:00</h1>
+          <h3 class="text-cyan-200 text-sm font-medium bg-white/10 px-3 py-1 rounded-full">BO3</h3>
+        </div>
+
+        <div class="flex flex-col items-center justify-center gap-4">
+          <h1 class="text-white text-xl font-semibold">Answer</h1>
+        <div class="flex flex-col items-center gap-3 justify-center text-center bg-white/15 backdrop-blur-sm rounded-2xl p-4 border border-white/25 hover:bg-white/20 transition-all duration-300 cursor-pointer hover:scale-105">
+          <h2 class="text-white text-3xl font-bold">
+            1.00<span class="text-cyan-200 text-lg font-normal">x</span>
+          </h2>
+        </div>
+      </div>
     </div>
+    </div>
+
+    <!-- Bottom glow effect -->13:00
+    <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 rounded-b-3xl"></div>
   </div>
 </template>
 
