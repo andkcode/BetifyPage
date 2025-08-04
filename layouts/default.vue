@@ -227,4 +227,13 @@ const showMobileMenu = ref(false)
 const showSideBarMenu = ref(false)
 const showRightBarMenu = ref(false)
 
+// Function to lock/unlock body scroll
+const lockBodyScroll = () => {
+    const scrollY = window.scrollY
+    document.body.style.position = 'fixed'
+    document.body.style.top = `-${scrollY}px`
+    document.body.style.width = '100%'
+    document.body.style.overflow = 'hidden'
+}
+
 </script>
