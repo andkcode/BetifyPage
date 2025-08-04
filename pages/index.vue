@@ -68,7 +68,7 @@
           to="https://t.me/parse_exchanges_bot"
           target="_blank"
           icon="mingcute:telegram-fill"
-          class="mt-6 flex justify-center items-center bg-blue-500 rounded-full text-white font-semibold text-lg px-10 py-4 hover:bg-blue-600 transition"
+          class="mt-6 flex justify-center items-center bg-blue-800 rounded-full text-white font-semibold text-base sm:text-lg px-8 sm:px-10 py-3 sm:py-4 hover:bg-blue-600 transition w-full sm:w-auto"
         >
           Let's win!
         </UButton>    
