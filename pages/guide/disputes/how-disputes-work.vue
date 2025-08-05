@@ -1,6 +1,18 @@
 <template>
-  <div>
-    
+  <div class="flex flex-col w-full h-full text-gray-800">
+
+    <!-- Hero Section -->
+    <section class="w-full px-6 pt-16 md:px-16 md:pt-24">
+      <div class="max-w-5xl mx-auto">
+        <h1 class="text-sm font-bold text-blue-700 uppercase tracking-wide">Disputes</h1>
+        <h2 class="mt-2 text-4xl md:text-5xl font-extrabold text-black">How Disputes Work</h2>
+        <p class="mt-6 text-lg leading-relaxed text-gray-600">
+          A dispute is a prediction market with one or more possible outcomes (e.g., “Will Ethereum hit $4,000 by Sept 1?”).
+        </p>
+      </div>
+    </section>
+
+
   </div>
 </template>
 
