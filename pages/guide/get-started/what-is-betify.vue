@@ -13,10 +13,21 @@
     </section>
 
 
+    <!-- Features Section -->
+    <section class="w-full px-6 py-16 md:px-16">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Key Features</h3>
+        <ul class="space-y-4 text-base text-gray-700 list-disc pl-6">
+          <li>Create public or private disputes (prediction events) with full control</li>
+          <li>Place multiple bets per dispute</li>
+          <li>Set outcomes, assign resolvers, and define deadlines</li>
+          <li>Earn from referrals, creating markets, or resolving disputes</li>
+          <li>Manage funds easily with Telegram-native @send wallet (no fees!)</li>
+          <li>Track your stats with easy commands like /mybets, /mydisputes</li>
+        </ul>
       </div>
+    </section>
 
-      <div class="flex space-x-2 text-gray-500 px-10 py-10">
-        <p>Documentation - betify this is bullshit created by 2 Andrews and Max, we are not responsible for any issues with the website.Documentation - betify this is bullshit created by 2 Andrews and Max, we are not responsible for any issues with the website.</p>
       </div>
 
       </div>
