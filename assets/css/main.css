@@ -1,8 +1,18 @@
-/* Import Inter font for professional betting platform look */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+@layer utilities {
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+      .no-scrollbar {
+          -ms-overflow-style: none; 
+          scrollbar-width: none; 
+    }
+  }
 
 :root {
   --ui-radius: 0.25rem;
