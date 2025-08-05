@@ -13,7 +13,6 @@
     <!-- Features Section -->
     <section class="w-full px-6 py-16 md:px-16">
       <div class="max-w-5xl mx-auto">
-        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Key Features</h3>
         <ul class="space-y-4 text-base text-gray-700 list-disc pl-6">
           <li>Verified users and disputes are marked as trusted.</li>
           <li>Only Admins can verify users or disputes.</li>
