@@ -13,6 +13,26 @@
     </section>
 
 
+    <!-- Features Section -->
+    <section class="w-full px-6 py-16 md:px-16">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Dispute Lifecycle</h3>
+        <ol class="space-y-4 text-base text-gray-700 list-decimal pl-6">
+          <li>Create public or private disputes (prediction events) with full control</li>
+          <li>Place multiple bets per dispute</li>
+          <li>Set outcomes, assign resolvers, and define deadlines</li>
+          <li>Earn from referrals, creating markets, or resolving disputes</li>
+          <li>Manage funds easily with Telegram-native @send wallet (no fees!)</li>
+          <li>Track your stats with easy commands like /mybets, /mydisputes</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="w-[45rem] mx-10 md:px-16 text-base text-gray-700">
+      <p class="bg-[rgba(255,255,255,0.2)] py-2 px-4">Verified public disputes gain priority visibility.</p>
+    </section>
+
+
   </div>
 </template>
 
