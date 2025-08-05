@@ -32,6 +32,17 @@
       <p class="bg-[rgba(255,255,255,0.2)] py-2 px-4">Verified public disputes gain priority visibility.</p>
     </section>
 
+    <!-- Use Cases Section -->
+    <section class="w-full px-6 py-16 md:px-16">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Public vs Private Disputes</h3>
+        <ul class="space-y-3 text-base text-gray-700 list-disc pl-6">
+          <li>Public: Anyone can view and join</li>
+          <li>Private: Only accessible via a shared link</li>
+        </ul>
+      </div>
+    </section>
+
 
   </div>
 </template>
