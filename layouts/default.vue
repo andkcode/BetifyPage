@@ -52,7 +52,7 @@
             
             <UButton 
                 icon="mingcute:right-fill" 
-                :class="isActive('/guide') ? 'lg:hidden bg-blue-600 text-white fixed bottom-0 my-4 z-50 mx-1' : 'hidden'"
+                :class="isActive('/guide') ? 'lg:hidden bg-blue-600 cursor-pointer rounded-full text-white fixed bottom-0 my-4 z-50 mx-1' : 'hidden'"
                 v-if="!showSideBarMenu" 
                 @click="toggleSideBarMenu" 
             />
@@ -166,14 +166,14 @@
             
             <UButton 
                 icon="mingcute:left-fill" 
-                :class="isActive('/guide') ? 'lg:hidden bg-blue-600 text-white fixed bottom-0 right-0 my-4 z-50 mx-1' : 'hidden'"
+                :class="isActive('/guide') ? 'lg:hidden bg-blue-600 text-white cursor-pointer rounded-full fixed bottom-0 right-0 my-4 z-50 mx-1' : 'hidden'"
                 v-if="!showRightBarMenu"
                 @click="toggleRightBarMenu" 
             />
 
             <UButton 
                 icon="material-symbols:close-rounded" 
-                :class="isActive('/guide') ? 'bg-color-none text-black fixed my-4 top-0 left-0 z-50 mx-1' : 'hidden'"
+                :class="isActive('/guide') ? 'bg-color-none text-black fixed cursor-pointer my-4 top-0 left-0 z-50 mx-1' : 'hidden'"
                 v-if="showRightBarMenu" 
                 @click="closeRightBarMenu" 
             />
