@@ -58,14 +58,17 @@
     </section>
 
 
+    <section class="w-[45rem] mx-10 md:px-16 text-base text-gray-700">
+      <p class="bg-[rgba(255,255,255,0.2)] py-2 px-4">Betify lets you profit from your knowledge while improving market accuracy.</p>
+    </section>
 
   </div>
 </template>
 
 <script lang="ts" setup>
-
+// No script logic needed for static documentation
 </script>
 
-<style>
-
+<style scoped>
+/* Optional: Customize typography further */
 </style>
