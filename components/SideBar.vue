@@ -65,9 +65,21 @@
         </div>
       </div>
 
+        <div class="flex flex-col items-start justify-start space-y-4">
+        <h1 class="font-semibold text-blue-400 text-base px-4">Platform</h1>
           <div class="flex flex-col items-start justify-start space-y-1 w-full pr-8">
-          <UButton class="text-gray-400 text-sm cursor-pointer bg-color-none w-full px-4 py-[0.5rem] rounded-[0.5rem] hover:bg-blue-500 hover:text-white focus:bg-blue-500 focus:text-white">What is Betify?</UButton>
-          <UButton class="text-gray-400 text-sm cursor-pointer bg-color-none w-full px-4 py-[0.5rem] rounded-[0.5rem] hover:bg-blue-500 hover:text-white focus:bg-blue-500 focus:text-white">How to Deposit</UButton>
+          <UButton
+            :to="'/guide/platform/platform-fees'"
+            :class="[
+              'text-sm cursor-pointer w-full px-4 py-2 rounded-md transition-colors',
+              isActive('/guide/platform/platform-fees')
+                ? 'bg-blue-500 hover:bg-blue-500 text-white'
+                : 'text-gray-400 bg-color-none hover:bg-blue-500 hover:text-white'
+            ]"
+          >
+          Platform Fees
+          </UButton>
+
         </div>
       </div>
 
