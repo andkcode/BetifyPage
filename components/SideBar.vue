@@ -42,7 +42,17 @@
           >
           Role & Permissions
           </UButton>
-          <UButton class="text-gray-400 text-sm cursor-pointer bg-color-none w-full px-4 py-[0.5rem] rounded-[0.5rem] hover:bg-blue-500 hover:text-white focus:bg-blue-500 focus:text-white">How to Deposit</UButton>
+          <UButton
+            :to="'/guide/security/verification'"
+            :class="[
+              'text-sm cursor-pointer w-full px-4 py-2 rounded-md transition-colors',
+              isActive('/guide/get-started/verification')
+                ? 'bg-blue-500 hover:bg-blue-500 text-white'
+                : 'text-gray-400 bg-color-none hover:bg-blue-500 hover:text-white'
+            ]"
+          >
+          Verification
+          </UButton>
         </div>
       </div>
 
