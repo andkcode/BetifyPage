@@ -43,6 +43,21 @@
       </div>
     </section>
 
+    <section class="w-full px-6 py-16 md:px-16">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-2xl font-semibold mb-4 text-gray-800">How Accurate Are Betify Markets?</h3>
+        <p class="mt-6 text-lg leading-relaxed text-gray-600">
+          Prediction markets are often more reliable than expert forecasts or polls. Why?
+        </p>
+        <ol class="space-y-4 text-base text-gray-700 list-decimal pl-6">
+          <li>Participants have real money on the line</li>
+          <li>Odds update dynamically with supply and demand</li>
+          <li>Markets reflect collective intelligence, not opinion</li>
+        </ol>
+      </div>
+    </section>
+
+
 
   </div>
 </template>
