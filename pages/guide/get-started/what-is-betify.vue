@@ -28,7 +28,22 @@
       </div>
     </section>
 
+    <section class="w-[45rem] mx-10 md:px-16 text-base text-gray-700">
+      <p class="bg-[rgba(255,255,255,0.2)] py-2 px-4"><strong class="text-blue-700">Betify</strong> runs entirely inside Telegram — no apps, no logins, no KYC.</p>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="w-full px-6 py-16 md:px-16">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Core Use Cases</h3>
+        <ul class="space-y-3 text-base text-gray-700 list-disc pl-6">
+          <li>Predict outcomes of sports, elections, crypto prices, or any custom event</li>
+          <li>Launch your own mini betting communities (public or invite-only)</li>
+          <li>Earn rewards from creating events, resolving them, or inviting friends</li>
+        </ul>
       </div>
+    </section>
+
 
       </div>
 </template>
