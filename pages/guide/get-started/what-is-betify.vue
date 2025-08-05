@@ -44,14 +44,25 @@
       </div>
     </section>
 
-
+    <!-- CTA Footer -->
+    <section class="w-full px-6 py-10 md:px-16 text-center">
+      <div class="max-w-3xl mx-auto">
+        <p class="text-xl font-semibold text-gray-900 mb-4">
+          Ready to start predicting the future?
+        </p>
+        <p class="text-gray-600">
+          This guide walks you through every aspect of Betify — from dispute creation to resolution, rewards, commands, and governance.
+        </p>
       </div>
+    </section>
+
+  </div>
 </template>
 
 <script lang="ts" setup>
-
+// No script logic needed for static documentation
 </script>
 
-<style>
-
+<style scoped>
+/* Optional: Customize typography further */
 </style>
