@@ -80,6 +80,28 @@
           >
           How Disputes Work
           </UButton>
+          <UButton
+            :to="'/guide/disputes/betting-rules-prices'"
+            :class="[
+              'text-sm cursor-pointer w-full px-4 py-2 rounded-md transition-colors',
+              isActive('/guide/disputes/betting-rules-prices')
+                ? 'bg-blue-500 hover:bg-blue-500 text-white'
+                : 'text-gray-400 bg-color-none hover:bg-blue-500 hover:text-white'
+            ]"
+          >
+          Betting Rules & Prices
+          </UButton>
+          <UButton
+            :to="'/guide/disputes/betting-rules-prices'"
+            :class="[
+              'text-sm cursor-pointer w-full px-4 py-2 rounded-md transition-colors',
+              isActive('/guide/disputes/betting-rules-prices')
+                ? 'bg-blue-500 hover:bg-blue-500 text-white'
+                : 'text-gray-400 bg-color-none hover:bg-blue-500 hover:text-white'
+            ]"
+          >
+          Understanding Odds & Payouts
+          </UButton>
         </div>
       </div>
 
