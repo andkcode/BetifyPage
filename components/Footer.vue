@@ -5,7 +5,7 @@
       <!-- Brand Section -->
       <div class="flex flex-col space-y-3 sm:space-y-4 sm:col-span-2 lg:col-span-1">
         <div class="flex items-center space-x-2 sm:space-x-3">
-          <img src="/assets/logo.jpg" alt="logo" class="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 rounded-[0.3rem]" />
+          <img src="/assets/logo.png" alt="logo" class="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 rounded-[0.3rem]" />
           <h1 class="text-xl sm:text-2xl md:text-3xl font-bold">Betify</h1>
         </div>
         <p class="text-xs sm:text-sm text-gray-700 max-w-sm leading-relaxed">
