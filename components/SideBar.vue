@@ -17,6 +17,52 @@
           What is Betify?
           </UButton>
 
+          <UButton
+            :to="'/guide/get-started/how-to-start'"
+            :class="[
+              'text-sm cursor-pointer w-full px-4 py-2 rounded-md transition-colors',
+              isActive('/guide/get-started/how-to-start')
+                ? 'bg-blue-500 hover:bg-blue-500 text-white'
+                : 'text-gray-400 bg-color-none hover:bg-blue-500 hover:text-white'
+            ]"
+          >
+          How to Start
+          </UButton>
+
+          <UButton
+            :to="'/guide/get-started/how-to-deposit'"
+            :class="[
+              'text-sm cursor-pointer w-full px-4 py-2 rounded-md transition-colors',
+              isActive('/guide/get-started/how-to-deposit')
+                ? 'bg-blue-500 hover:bg-blue-500 text-white'
+                : 'text-gray-400 bg-color-none hover:bg-blue-500 hover:text-white'
+            ]"
+          >
+          How to Deposit
+          </UButton>
+
+          <UButton
+            :to="'/guide/get-started/create-your-first-dispute'"
+            :class="[
+              'text-sm cursor-pointer w-full px-4 py-2 rounded-md transition-colors',
+              isActive('/guide/get-started/create-your-first-dispute')
+                ? 'bg-blue-500 hover:bg-blue-500 text-white'
+                : 'text-gray-400 bg-color-none hover:bg-blue-500 hover:text-white'
+            ]"
+          >
+          Create Your First Dispute
+          </UButton>
+          <UButton
+            :to="'/guide/get-started/create-your-first-dispute'"
+            :class="[
+              'text-sm cursor-pointer w-full px-4 py-2 rounded-md transition-colors',
+              isActive('/guide/get-started/create-your-first-dispute')
+                ? 'bg-blue-500 hover:bg-blue-500 text-white'
+                : 'text-gray-400 bg-color-none hover:bg-blue-500 hover:text-white'
+            ]"
+          >
+          How to Place a Bet
+          </UButton>
         </div>
       </div>
 
