@@ -120,15 +120,26 @@
           Internal Wallet System
           </UButton>
           <UButton
-            :to="'/guide/wallet/betting-rules-prices'"
+            :to="'/guide/wallet/internal-wallet-system'"
             :class="[
               'text-sm cursor-pointer w-full px-4 py-2 rounded-md transition-colors',
-              isActive('/guide/wallet/betting-rules-prices')
+              isActive('/guide/wallet/internal-wallet-system')
                 ? 'bg-blue-500 hover:bg-blue-500 text-white'
                 : 'text-gray-400 bg-color-none hover:bg-blue-500 hover:text-white'
             ]"
           >
-          Betting Rules & Prices
+          Supported Tokens & Wallets
+          </UButton>
+          <UButton
+            :to="'/guide/wallet/internal-wallet-system'"
+            :class="[
+              'text-sm cursor-pointer w-full px-4 py-2 rounded-md transition-colors',
+              isActive('/guide/wallet/internal-wallet-system')
+                ? 'bg-blue-500 hover:bg-blue-500 text-white'
+                : 'text-gray-400 bg-color-none hover:bg-blue-500 hover:text-white'
+            ]"
+          >
+          Withdraw
           </UButton>
         </div>
       </div>
