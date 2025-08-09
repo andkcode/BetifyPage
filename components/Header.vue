@@ -4,7 +4,7 @@
       
       <!-- Logo Section -->
       <UButton class="flex items-center space-x-1 sm:space-x-2 bg-transparent hover:bg-transparent flex-shrink-0" to="/">
-        <img src="/assets/logo.jpg" alt="logo" class="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-15 lg:w-15 rounded-[0.3rem]" />
+        <img src="/assets/logo.png" alt="logo" class="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-15 lg:w-15 rounded-[0.3rem]" />
         <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">Betify</h1>
       </UButton>
 
