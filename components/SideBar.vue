@@ -201,7 +201,7 @@
         </div>
       </div>
 
-        <div class="flex flex-col items-start justify-start space-y-4">
+      <div class="flex flex-col items-start justify-start space-y-4">
         <h1 class="font-semibold text-blue-400 text-base px-4">Bot</h1>
           <div class="flex flex-col items-start justify-start space-y-1 w-full pr-8">
             <UButton
@@ -214,6 +214,50 @@
             ]"
           >
           Bot Commands
+          </UButton>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-start justify-start space-y-4">
+        <h1 class="font-semibold text-blue-400 text-base px-4">FAQs</h1>
+          <div class="flex flex-col items-start justify-start space-y-1 w-full pr-8">
+            <UButton
+            :to="'/guide/bot/cheat-sheet'"
+            :class="[
+              'text-sm cursor-pointer w-full px-4 py-2 rounded-md transition-colors',
+              isActive('/guide/bot/cheat-sheet')
+                ? 'bg-blue-500 hover:bg-blue-500 text-white'
+                : 'text-gray-400 bg-color-none hover:bg-blue-500 hover:text-white'
+            ]"
+          >
+          Bot Commands
+          </UButton>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-start justify-start space-y-4">
+          <div class="flex flex-col items-start justify-start space-y-1 w-full pr-8">
+          <UButton
+            :to="'/guide/bot/cheat-sheet'"
+            :class="[
+              'text-sm cursor-pointer w-full px-4 py-2 rounded-md transition-colors',
+              isActive('/guide/bot/cheat-sheet')
+                ? 'bg-blue-500 hover:bg-blue-500 text-white'
+                : 'text-gray-400 bg-color-none hover:bg-blue-500 hover:text-white'
+            ]"
+          >
+          Troubleshooting & Support
+          </UButton>
+          <UButton
+            :to="'/guide/bot/cheat-sheet'"
+            :class="[
+              'text-sm cursor-pointer w-full px-4 py-2 rounded-md transition-colors',
+              isActive('/guide/bot/cheat-sheet')
+                ? 'bg-blue-500 hover:bg-blue-500 text-white'
+                : 'text-gray-400 bg-color-none hover:bg-blue-500 hover:text-white'
+            ]"
+          >
+          Changelog / Release Notes 
           </UButton>
         </div>
       </div>
